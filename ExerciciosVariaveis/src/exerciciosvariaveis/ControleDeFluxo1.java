@@ -13,20 +13,14 @@ public class ControleDeFluxo1 {
 
     public static void main(String[] args) {
         int idade = 18;
-        int salario = 1900;
+        int salario = 2000;
 
-        if(idade >= 18){
-            System.out.println( " Pode entrar no Clube");
-            
-        }else{
+        if (idade >= 18 && salario >= 2000) {
+            System.out.println(" Pode entrar no Clube");
+
+        } else {
             System.out.println("Não pode entrar no clube");
         }
-        if(salario >= 2000){
-            System.out.println("Pode entrar no clube");
-        }else{
-            System.out.println("Não pode entrar no clube");
-        }
-        } 
 
     }
-
+}
