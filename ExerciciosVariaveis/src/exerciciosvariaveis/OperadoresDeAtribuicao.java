@@ -10,14 +10,14 @@ package exerciciosvariaveis;
  * @author Forceone
  */
 public class OperadoresDeAtribuicao {
+
     public static void main(String[] args) {
         int salario = 2000;
-        double comissao = 0.24;
-         salario = salario + (salario *= comissao);
-        
-        
+        double comissao = 0.60;
+
+        salario = salario + (salario *= comissao);
         System.out.println(salario);
-        
+
     }
-    
+
 }
