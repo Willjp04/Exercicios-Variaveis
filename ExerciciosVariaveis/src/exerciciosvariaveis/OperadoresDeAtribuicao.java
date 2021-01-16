@@ -9,12 +9,15 @@ package exerciciosvariaveis;
  *
  * @author Forceone
  */
-public class OperadoresLogicos {
+public class OperadoresDeAtribuicao {
     public static void main(String[] args) {
-        int idade = 18;
-        float salario = 2000f;
-        float comissao = 20f;
+        int salario = 2000;
+        double comissao = 0.24;
+         salario = salario + (salario *= comissao);
         
-        System.out.println(idade == 18 || salario <= 3000 || comissao > 20);
+        
+        System.out.println(salario);
+        
     }
+    
 }
