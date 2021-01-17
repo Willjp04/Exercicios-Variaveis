@@ -48,7 +48,7 @@ public class ControleDeFluxo3 {
                 break;
 
             }
-            default:{
+            default: {
                 System.out.println("Opção Inválida");
             }
 
