@@ -14,8 +14,9 @@ public class ControleDeFluxo1 {
     public static void main(String[] args) {
         int idade = 18;
         int salario = 2000;
+        boolean estaComDocumento = true;
 
-        if (idade >= 18 && salario >= 2000) {
+        if (idade >= 18 && salario >= 2000 && estaComDocumento == true) {
             System.out.println(" Pode entrar no Clube");
 
         } else {
@@ -23,4 +24,4 @@ public class ControleDeFluxo1 {
         }
 
     }
-}
+};
