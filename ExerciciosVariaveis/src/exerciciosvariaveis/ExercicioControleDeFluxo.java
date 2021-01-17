@@ -6,7 +6,7 @@ package exerciciosvariaveis;
 public class ExercicioControleDeFluxo {
 
     public static void main(String[] args) {
-        double salario = 3500;
+        double salario = 900;
         double totalImposto = salario * 0;
 
         if (salario < 1000) {
