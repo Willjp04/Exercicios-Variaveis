@@ -9,18 +9,19 @@ package exerciciosvariaveis;
  *
  * @author Forceone
  */
-public class ControleDeFluxo6 {
+public class TesteExercicioCarro {
 
     public static void main(String[] args) {
-        double valorCarro = 30000;
+        double valorCarro = 22000;
+        int valorEntrada = 8000;
         for (int parcela = (int) valorCarro; parcela >= 1; parcela--) {
-            double valorParcela = valorCarro / parcela;
-            if (valorParcela <= 1000) {
-                continue;
+            double valorParcela = (valorCarro - valorEntrada) / parcela;
+            if (valorParcela >= 500) {
+                System.out.println("Parcela " + parcela + " R$ " + valorParcela);
 
             }
-            System.out.println("Parcela " + parcela + " R$ " + valorParcela);
 
         }
     }
+
 }
