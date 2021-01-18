@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exerciciosvariaveis;
 
-/**
- *
- * @author Forceone
- */
 public class ControleDeFluxo4 {
 
     public static void main(String[] args) {
@@ -26,16 +18,21 @@ public class ControleDeFluxo4 {
         
 
 // O DO WHILE EXECUTA SENDO TRUE OU FALSE
-        do {
-            System.out.println("AQUI É O VALOR DE DO");
+      //  do {
+         //   System.out.println("AQUI É O VALOR DE DO");
 
-        } while (contador < 10);
+      //  } while (contador < 10);
         
         
         
           // O FOR PODE SE CRIAR UMA VARIAVEL LOCAL E VALIDAR
         for (int i = 0; i < 10; i++) {
             System.out.println("O valor de i é " + i);
+            if(i == 5){
+                break;
+            }
+            
+           
         }
 
     }
