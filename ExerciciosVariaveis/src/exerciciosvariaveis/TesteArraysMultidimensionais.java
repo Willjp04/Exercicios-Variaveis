@@ -9,19 +9,14 @@ package exerciciosvariaveis;
  *
  * @author Forceone
  */
-public class ExercicioFixacaoArrays {
-
+public class TesteArraysMultidimensionais {
     public static void main(String[] args) {
-        String[] nomes = new String[4];
-        nomes[0] = "Helloisa";
-        nomes[1] = "Joyce";
-        nomes[2] = "Willian";
-        nomes[3] = "Teste";
-        
-        for(String lista : nomes){
-            System.out.println(lista);
+        String[][] nomes = {{"Helloisa","Joyce","Willian"}};
+        for(String[] lista : nomes){
+            for(String n : lista){
+                System.out.println(n);
+            }
         }
-
     }
-
+    
 }
