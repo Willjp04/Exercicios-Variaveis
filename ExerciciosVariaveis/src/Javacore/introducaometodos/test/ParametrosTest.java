@@ -12,6 +12,7 @@ import Javacore.introducaometodos.classes.Calculadora;
  * @author Forceone
  */
 public class ParametrosTest {
+
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
         int num1 = 5;
@@ -20,9 +21,7 @@ public class ParametrosTest {
         System.out.println("DENTRO DO TESTE");
         System.out.println("Num1 " + num1);
         System.out.println("Num2 " + num2);
-        
-              
-                
+
     }
-    
+
 }
