@@ -6,7 +6,7 @@ import Javacore.introducaoclasses.Classes.Estudante;
 public class EstudanteTest {
     public static void main(String[] args) {
         Estudante willian = new Estudante();
-        willian.nome = "Willian";
+      /*  willian.nome = "Willian";
         willian.matricula = "19104745";
         willian.idade = 28;
         
@@ -27,9 +27,11 @@ public class EstudanteTest {
         
         System.out.println(graciene.nome);
         System.out.println(graciene.idade+ " anos");
-        System.out.println(graciene.matricula);
+        System.out.println(graciene.matricula);*/
         
         
+        willian.nomeDoAluno("Willian");
+        willian.matriculaAluno("19104745");
         
     }
 }

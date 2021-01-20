@@ -10,7 +10,17 @@ package Javacore.introducaoclasses.Classes;
  * @author Forceone
  */
 public class Estudante {
+
     public String nome;
     public String matricula;
     public int idade;
+
+    public void nomeDoAluno(String nomeAluno) {
+        System.out.println(nomeAluno);
+
+    }
+
+    public void matriculaAluno(String matricula) {
+        System.out.println(matricula);
+    }
 }
