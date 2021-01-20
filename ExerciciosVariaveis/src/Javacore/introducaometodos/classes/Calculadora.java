@@ -26,10 +26,16 @@ public class Calculadora {
     }
 
     public void divideDoisNumeros(int num1, int num2) {
-        System.out.println(num1 / num2);
+        if (num2 != 0) {
+            System.out.println(num1 / num2);
+
+        } else {
+            System.out.println("ZERO NÃO PODE SER DIVIDIO");
+        }
+
     }
-    
-    public void iniciandoCalculadora(){
+
+    public void iniciandoCalculadora() {
         System.out.println(" INICIANDO CALCULADORA ");
     }
 

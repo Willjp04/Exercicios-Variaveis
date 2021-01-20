@@ -24,7 +24,7 @@ public class CalculadoraTest {
         //MULTIPLICAÇÃO
         calc.multiplicaDoisNumeros(10, 10);
         //DIVISÃO
-        calc.divideDoisNumeros(10, 2);
+       calc.divideDoisNumeros(2,2 );
     }
 
 }
