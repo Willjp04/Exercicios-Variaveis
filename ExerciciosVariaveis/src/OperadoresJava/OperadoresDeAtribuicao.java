@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerciciosvariaveis;
+package OperadoresJava;
 
 /**
  *
  * @author Forceone
  */
-public class OperadoresLogicos {
+public class OperadoresDeAtribuicao {
+
     public static void main(String[] args) {
-        int idade = 18;
-        float salario = 2000f;
-        float comissao = 20f;
-        
-        System.out.println(idade == 18 || salario <= 3000 || comissao > 20);
+        int salario = 2000;
+        double comissao = 0.60;
+
+        salario = salario + (salario *= comissao);
+        System.out.println(salario);
+
     }
+
 }

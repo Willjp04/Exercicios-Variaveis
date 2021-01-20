@@ -1,4 +1,4 @@
-package exerciciosvariaveis;
+package ExerciciosControleFluxo;
 
 public class ExercicioControleDeFluxo2 {
 

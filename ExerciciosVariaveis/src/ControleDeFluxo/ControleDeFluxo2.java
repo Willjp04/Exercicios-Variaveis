@@ -3,22 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerciciosvariaveis;
+package ControleDeFluxo;
 
 /**
  *
  * @author Forceone
  */
-public class ExercicioControleDeFluxo3 {
-
+public class ControleDeFluxo2 {
     public static void main(String[] args) {
-        int valor = 100;
-        for (int i = 0; i <= valor; i++) {
-            if (i % 2 != 0) {
-                System.out.println(i);
-            }
+        int idade = 17;
+        if(idade >=18){
+            System.out.println("Adulto");
+        }else{
+            System.out.println("Não é adulto");
         }
-
     }
-
+    
 }

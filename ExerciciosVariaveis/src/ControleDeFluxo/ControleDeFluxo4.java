@@ -1,5 +1,5 @@
 
-package exerciciosvariaveis;
+package ControleDeFluxo;
 
 public class ControleDeFluxo4 {
 

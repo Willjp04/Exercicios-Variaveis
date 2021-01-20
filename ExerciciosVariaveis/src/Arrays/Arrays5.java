@@ -1,4 +1,4 @@
-package exerciciosvariaveis;
+package Arrays;
 
 public class Arrays5 {
 

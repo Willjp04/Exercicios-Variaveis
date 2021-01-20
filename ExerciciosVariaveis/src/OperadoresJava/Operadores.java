@@ -1,5 +1,5 @@
 
-package exerciciosvariaveis;
+package OperadoresJava;
 
 
 public class Operadores {

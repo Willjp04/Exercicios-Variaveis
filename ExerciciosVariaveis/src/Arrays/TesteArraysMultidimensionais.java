@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerciciosvariaveis;
+package Arrays;
 
 /**
  *
  * @author Forceone
  */
-public class OperadoresDeComparacao {
+public class TesteArraysMultidimensionais {
     public static void main(String[] args) {
-       boolean a1 = 10 != 20;
-       boolean a2 = 20 <= 30;
-        System.out.println(a1);
-        System.out.println(a2);
-       
+        String[][] nomes = {{"Helloisa","Joyce","Willian"}};
+        for(String[] lista : nomes){
+            for(String n : lista){
+                System.out.println(n);
+            }
+        }
     }
+    
 }

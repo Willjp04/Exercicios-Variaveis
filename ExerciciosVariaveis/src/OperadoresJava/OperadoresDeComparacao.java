@@ -3,20 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerciciosvariaveis;
+package OperadoresJava;
 
 /**
  *
  * @author Forceone
  */
-public class ControleDeFluxo2 {
+public class OperadoresDeComparacao {
     public static void main(String[] args) {
-        int idade = 17;
-        if(idade >=18){
-            System.out.println("Adulto");
-        }else{
-            System.out.println("Não é adulto");
-        }
+       boolean a1 = 10 != 20;
+       boolean a2 = 20 <= 30;
+        System.out.println(a1);
+        System.out.println(a2);
+       
     }
-    
 }

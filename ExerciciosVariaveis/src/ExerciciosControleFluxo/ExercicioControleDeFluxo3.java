@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exerciciosvariaveis;
+package ExerciciosControleFluxo;
 
 /**
  *
  * @author Forceone
  */
-public class OperadoresDeAtribuicao {
+public class ExercicioControleDeFluxo3 {
 
     public static void main(String[] args) {
-        int salario = 2000;
-        double comissao = 0.60;
-
-        salario = salario + (salario *= comissao);
-        System.out.println(salario);
+        int valor = 100;
+        for (int i = 0; i <= valor; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
 
     }
 
