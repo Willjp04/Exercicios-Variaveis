@@ -1,16 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Javacore.introducaoclasses.Classes.test;
 
+package Javacore.introducaoclasses.Classes.test;
 import Javacore.introducaoclasses.Classes.Professor;
 
-/**
- *
- * @author Forceone
- */
+
 public class ProfessorTest {
 
     public static void main(String[] args) {
