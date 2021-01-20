@@ -1,6 +1,6 @@
 
-package Javacore.introducaoclassestest;
-import Javacore.introducaoclasses.Estudante;
+package Javacore.introducaoclasses.Classes.test;
+import Javacore.introducaoclasses.Classes.Estudante;
 
 
 public class EstudanteTest {
@@ -16,15 +16,15 @@ public class EstudanteTest {
         graciene.idade = 25;
         
         System.out.println(willian.nome);
-        System.out.println(willian.idade);
-        System.out.println(graciene.matricula);
+        System.out.println(willian.idade + " anos");
+        System.out.println(willian.matricula);
                 
         
         System.out.println("//////////////");
         
         
         System.out.println(graciene.nome);
-        System.out.println(graciene.idade);
+        System.out.println(graciene.idade+ " anos");
         System.out.println(graciene.matricula);
         
         
