@@ -14,7 +14,7 @@ import Javacore.introducaoclasses.Classes.Carro;
  *
  * @author Forceone
  */
-public class CarroTeste {
+public class CarroTest {
     public static void main(String[] args) {
         Carro carro = new Carro();
          carro.placa = "ABC-123";
@@ -24,7 +24,10 @@ public class CarroTeste {
          carro.velocidadeMaxima = 140;
          
          System.out.println(" ESPECIFICAÇÃO VEICULO ");
-         System.out.println();
+           
+         
+         System.out.println("///////////////////");
+         
          
          System.out.println(carro.placa);
          System.out.println(carro.modelo);
