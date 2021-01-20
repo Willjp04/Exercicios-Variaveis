@@ -1,12 +1,12 @@
-
 package Javacore.introducaoclasses.Classes.test;
+
 import Javacore.introducaoclasses.Classes.Estudante;
 
-
 public class EstudanteTest {
+
     public static void main(String[] args) {
-        Estudante willian = new Estudante();
-      /*  willian.nome = "Willian";
+        Estudante estudante = new Estudante();
+        /*  willian.nome = "Willian";
         willian.matricula = "19104745";
         willian.idade = 28;
         
@@ -27,11 +27,17 @@ public class EstudanteTest {
         
         System.out.println(graciene.nome);
         System.out.println(graciene.idade+ " anos");
-        System.out.println(graciene.matricula);*/
-        
-        
-        willian.nomeDoAluno("Willian");
-        willian.matriculaAluno("19104745");
-        
+        System.out.println(graciene.matricula);
+         */
+
+        //TESTE DE METODOS COM PARAMETROS
+        estudante.dadosAluno("Willian", "19104745", 28);
+        System.out.println("------------------------");
+
+        estudante.dadosAluno("Graciene", "E0403294", 25);
+
+        System.out.println("------------------------");
+        estudante.dadosAluno("Helloisa", "123456", 6);
+
     }
 }

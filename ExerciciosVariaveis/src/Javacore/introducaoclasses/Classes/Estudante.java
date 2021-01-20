@@ -14,13 +14,13 @@ public class Estudante {
     public String nome;
     public String matricula;
     public int idade;
-
-    public void nomeDoAluno(String nomeAluno) {
+    
+//MÉTODOS COM PARAMETROS
+    public void dadosAluno(String nomeAluno, String matriculaAluno, int idadeAluno) {
         System.out.println(nomeAluno);
+        System.out.println(matriculaAluno);
+        System.out.println(idadeAluno);
 
     }
 
-    public void matriculaAluno(String matricula) {
-        System.out.println(matricula);
-    }
 }
