@@ -14,9 +14,11 @@ import Javacore.introducaometodos.classes.Calculadora;
 public class CalculadoraTest {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        calc.somaDoisNumeros();
-        calc.subtraiDoisNumeros();
+        calc.somaDoisNumeros(5,5);
+        calc.subtraiDoisNumeros(5,5);
+        calc.multiplicaDoisNumeros(10, 10);
     }
+    
     
     
 }
