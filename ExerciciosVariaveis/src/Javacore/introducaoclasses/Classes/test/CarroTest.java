@@ -20,6 +20,8 @@ public class CarroTest {
          carro.marca = "Chevrolet";
          carro.cor = "Azul";
          carro.velocidadeMaxima = 140;
+         System.out.println("------------------");
+         
          
          Carro carro2 = new Carro();
          carro2.placa = "AAA-3333";
@@ -27,6 +29,9 @@ public class CarroTest {
          carro2.marca = "FORD";
          carro2.cor = "PRETO";
          carro2.velocidadeMaxima = 160;
+         
+         
+        
          
          System.out.println(" ESPECIFICAÇÃO VEICULO ");
            

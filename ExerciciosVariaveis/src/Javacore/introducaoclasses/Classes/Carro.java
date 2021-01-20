@@ -8,6 +8,7 @@ public class Carro {
     public String cor;
     public float velocidadeMaxima;
     
+    
     public void imprime(){
         System.out.println("-------------");
         System.out.println(this.placa);
@@ -15,6 +16,7 @@ public class Carro {
         System.out.println(this.marca);
         System.out.println(this.cor);
         System.out.println(this.velocidadeMaxima);
+       
     }
 
 
