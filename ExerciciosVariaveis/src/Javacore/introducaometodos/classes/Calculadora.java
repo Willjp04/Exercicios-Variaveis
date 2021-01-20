@@ -28,15 +28,23 @@ public class Calculadora {
     public void divideDoisNumeros(int num1, int num2) {
         if (num2 != 0) {
             System.out.println(num1 / num2);
+            return;
 
-        } else {
+        }  
             System.out.println("ZERO NÃO PODE SER DIVIDIO");
-        }
-
+        
     }
 
     public void iniciandoCalculadora() {
         System.out.println(" INICIANDO CALCULADORA ");
+    }
+    
+    public void alteraDoisNumeros(int a, int b){
+        a = 30;
+        b = 40;
+        System.out.println("DENTRO DO ALTERA DOIS NUMEROS");
+        System.out.println("a " + a);
+        System.out.println("b " + b);
     }
 
 }

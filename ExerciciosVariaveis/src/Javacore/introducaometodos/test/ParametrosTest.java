@@ -11,20 +11,18 @@ import Javacore.introducaometodos.classes.Calculadora;
  *
  * @author Forceone
  */
-public class CalculadoraTest {
-
+public class ParametrosTest {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        calc.iniciandoCalculadora();
-
-        //SOMA
-        calc.somaDoisNumeros(5, 5);
-        //SUBTRAÇÃO
-        calc.subtraiDoisNumeros(5, 5);
-        //MULTIPLICAÇÃO
-        calc.multiplicaDoisNumeros(10, 10);
-        //DIVISÃO
-        calc.divideDoisNumeros(2, 0);
+        int num1 = 5;
+        int num2 = 10;
+        calc.alteraDoisNumeros(num1, num2);
+        System.out.println("DENTRO DO TESTE");
+        System.out.println("Num1 " + num1);
+        System.out.println("Num2 " + num2);
+        
+              
+                
     }
-
+    
 }
